@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inputan</title>
+</head>
+<body>
+    <script>
+var jawab = prompt("Kamu beruntung! Silahkan pilih hadiahmu dengan memasukan angka 1 sampai 5");
+var hadiah = "";
+
+switch(jawab){
+    case "1":
+        hadiah =document.write( "<p>Selamat anda mendapatkan Tisu</p>");
+        break;
+    case "2":
+        hadiah =document.write( "<p>Selamat anda mendapatkan 1 Kotak Kopi</p>");
+        break;
+    case "3":
+        hadiah =document.write( "<p>Selamat anda mendapakan Sticker</p>");
+        break;
+    case "4":
+        hadiah =document.write( "<p>Selamat anda mendapatkan Minyak Goreng</p>");
+        break;
+    case "5":
+        hadiah =document.write( "<p>Selamat anda mendapatkan Uang Rp 50.000</p>");
+        break;
+    default:
+        document.write("<p>Opps! anda salah pilih</p>");
+}
+    </script>
+</body>
+</html>
